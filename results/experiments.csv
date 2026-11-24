@@ -1,0 +1,4 @@
+name,dropout,wd,augment,scheduler,epochs_run,train_acc,val_acc,gap
+no_reg,0.0,0.0,False,none,8,0.9630,0.8952,0.0678
+reg_aug,0.3,0.05,True,cosine,8,0.8860,0.8650,0.0210
+early_stop,0.0,0.0,False,none,9,0.9630,0.8952,0.0678
